@@ -181,16 +181,7 @@ textarea {
 .navbar {
     margin-bottom: 0 !important;
 }
-.icon{
-    background: url('../imgs/logo/logo.png');
-    background-position: center;
-    overflow: hidden;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 1%;
-    width: 75px;
-    height: 75px;
-}
+
 
 /* Dropdown Button */
 .dropbtn {
