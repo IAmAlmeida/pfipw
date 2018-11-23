@@ -27,7 +27,9 @@ body {
     -moz-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
 }
-
+.cnt{
+    text-align: center;
+}
 .iconft:hover {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
