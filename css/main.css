@@ -55,7 +55,9 @@ h4 {
     font-size: 25px;
     color: #111;
 }
-
+.row_frame{
+    margin: 0 15% 10px 15%;
+}
 .textarea {
     text-align: center;
 }
