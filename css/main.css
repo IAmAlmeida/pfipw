@@ -493,6 +493,13 @@ hr{
     border:3px solid whitesmoke;
     border-radius:25px;    
 }
+
+hr.hr{
+    background-color:#333;
+    height: 0.5px;
+    border:1px solid whitesmoke;
+    border-radius:5px;    
+}
 .rowimg {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -591,4 +598,8 @@ hr{
 }
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
+}
+
+p.first::first-letter{
+    font-size: 40px;
 }
