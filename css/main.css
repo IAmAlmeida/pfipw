@@ -52,6 +52,13 @@ a.headerlink {
     font-size: 15px;
 }
 
+a{
+    color:#5379BA;
+}
+a.a:visited{
+    color:#B75144;
+}
+
 h3,
 h4 {
     margin: 10px 0 30px 0;
