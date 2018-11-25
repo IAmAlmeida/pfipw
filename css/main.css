@@ -32,7 +32,7 @@ body {
     transition: 0.3s ease-out;
 }
 .cnt{
-    text-align: center;
+    text-align: justify;
 }
 .iconft:hover {
     -webkit-transform: rotateZ(360deg);
@@ -616,25 +616,16 @@ div.noticia{
 img.noticia{
     width:100%;
 }
-.col-alm {
-    float: left;
+.floated{
+    float: right;
     width: 50%;
+    text-align: justify;
     padding: 10px;
-}
-
-
-.row-alm:after {
-    content: "";
-    display: table;
-    clear: both;
+    
 }
 @media only screen and (max-width: 600px) {
-    .col-alm {
+    .floated{
         width: 100%;
     }
-    
-   
-    .row-alm:after {
-        
-    }
 }
+
