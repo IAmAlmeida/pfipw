@@ -87,7 +87,7 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5">
                     <h2>Envie-nos um email</h2>
-                    <form action="">
+                    <form action="" onsubmit="alert('Email enviado com sucesso, aguarde a sua resposta no seu email pessoal. Obrigado.')">
                         <div class="form-group">
                             <input class="form-control" type="text" placeholder="Primeiro Nome" required>
                         </div>
@@ -98,10 +98,10 @@
                             <input class="form-control" type="Email" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="number" placeholder="Numero de Telefone" required>
+                            <input class="form-control" type="number" placeholder="Numero de Telefone" maxlength="12" required>
                         </div>
                         <div class="form-text">
-                            <textarea class="form-control" name="textarea" id="" cols="30" rows="7">Mensagem...</textarea>
+                            <textarea class="form-control" name="textarea" id="" cols="30" rows="7" placeholder="Mensagem..." required></textarea>
                         </div>
                         <div style="text-align:center;">
                             <input class="btn" style="width:150px" type="submit" value="Enviar">
