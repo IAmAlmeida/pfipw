@@ -616,3 +616,25 @@ div.noticia{
 img.noticia{
     width:100%;
 }
+.col-alm {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.row-alm:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media only screen and (max-width: 600px) {
+    .col-alm {
+        width: 100%;
+    }
+    
+   
+    .row-alm:after {
+        
+    }
+}
