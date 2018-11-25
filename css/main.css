@@ -584,12 +584,12 @@ hr.hr{
 	opacity: 1;
 }
 .hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 14px;
+	text-align: left;
+	font-size: 12px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+    left: 50%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -609,4 +609,10 @@ hr.hr{
 
 p.first::first-letter{
     font-size: 40px;
+}
+div.noticia{
+    text-align: left;
+}
+img.noticia{
+    width:100%;
 }
